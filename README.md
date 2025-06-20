@@ -1,7 +1,7 @@
-# 🌟 Microsoft Docs MCP Server
+# 🌟 Microsoft Learn Docs MCP Server
 [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Microsoft_Docs_MCP-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=microsoft.docs.mcp&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Flearn.microsoft.com%2Fapi%2Fmcp%22%7D) [![Install in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install_Microsoft_Docs_MCP-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=microsoft.docs.mcp&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Flearn.microsoft.com%2Fapi%2Fmcp%22%7D&quality=insiders)
 
-The Microsoft Docs MCP Server implements the [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server that provides AI assistants with real-time access to official [Microsoft documentation](https://learn.microsoft.com).
+The Microsoft Learn Docs MCP Server implements the [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server that provides AI assistants with real-time access to official [Microsoft documentation](https://learn.microsoft.com).
 
 > Please note that this project is in Public Preview and implementation may significantly change prior to our General Availability.
 
@@ -16,9 +16,9 @@ The Microsoft Docs MCP Server implements the [Model Context Protocol (MCP)](http
 
 ## 🎯 Overview
 
-### ✨ What is the Microsoft Docs MCP Server?
+### ✨ What is the Microsoft Learn Docs MCP Server?
 
-The Microsoft Docs MCP Server is a cloud-hosted service that enables MCP hosts like GitHub Copilot and Cursor to search and retrieve accurate information directly from Microsoft's official documentation. By implementing the standardized Model Context Protocol (MCP), this service allows any compatible AI system to ground its responses in authoritative Microsoft content.
+The Microsoft Learn Docs MCP Server is a cloud-hosted service that enables MCP hosts like GitHub Copilot and Cursor to search and retrieve accurate information directly from Microsoft's official documentation. By implementing the standardized Model Context Protocol (MCP), this service allows any compatible AI system to ground its responses in authoritative Microsoft content.
 
 ### 📊 Key Capabilities
 
@@ -27,9 +27,9 @@ The Microsoft Docs MCP Server is a cloud-hosted service that enables MCP hosts l
 - **Optimized Chunking**: Returns up to 10 high-quality content chunks (each max 500 tokens), with article titles, URLs, and self-contained content excerpts.
 - **Real-time Updates**: Access the latest Microsoft documentation as it's published.
 
-## 🌐 The Microsoft Docs MCP Server Endpoint
+## 🌐 The Microsoft Learn Docs MCP Server Endpoint
 
-The Microsoft Docs MCP Server is accessible to any IDE, agent, or tool that supports the Model Context Protocol (MCP). Any compatible client can connect to the following **remote MCP endpoint**:
+The Microsoft Learn Docs MCP Server is accessible to any IDE, agent, or tool that supports the Model Context Protocol (MCP). Any compatible client can connect to the following **remote MCP endpoint**:
 
 ```
 https://learn.microsoft.com/api/mcp
@@ -54,7 +54,7 @@ https://learn.microsoft.com/api/mcp
 
 ## 🔌 Installation & Getting Started
 
-The Microsoft Docs MCP Server supports quick installation across multiple development environments. Choose your preferred client below for streamlined setup:
+The Microsoft Learn Docs MCP Server supports quick installation across multiple development environments. Choose your preferred client below for streamlined setup:
 
 | Client | One-click Installation | MCP Guide |
 |--------|----------------------|-------------------|
@@ -76,9 +76,9 @@ Some clients don't support `Streamable HTTP`, so you can use `mcp-remote` as a w
 
 ### ▶️ Getting Started
 1. Open GitHub Copilot in VS Code and [switch to Agent mode](https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode)
-2. You should see the Docs MCP Server in the list of tools
-3. Try a prompt that tells the agent to use the Docs MCP Server, such as "what are the az cli commands to create an Azure container app according to official Microsoft Learn documentation?"
-4. The agent should be able to use the Docs MCP Server tools to complete your query
+2. You should see the Learn Docs MCP Server in the list of tools
+3. Try a prompt that tells the agent to use the Learn Docs MCP Server, such as "what are the az cli commands to create an Azure container app according to official Microsoft Learn documentation?"
+4. The agent should be able to use the Learn Docs MCP Server tools to complete your query
 
 ## ❓ Troubleshooting
 
@@ -89,7 +89,7 @@ Some clients don't support `Streamable HTTP`, so you can use `mcp-remote` as a w
 | Connection errors | Verify your network connection and that the server URL is correctly entered |
 | No results returned | Try rephrasing your query with more specific technical terms |
 | Tool not appearing in VS Code | Restart VS Code or check that the MCP extension is properly installed |
-| HTTP status 405  | Method not allowed happens when a browser tries to connect to the endpoint. Try using the Docs MCP Server through VS Code GitHub Copilot or [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) instead. |
+| HTTP status 405  | Method not allowed happens when a browser tries to connect to the endpoint. Try using the Learn Docs MCP Server through VS Code GitHub Copilot or [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) instead. |
 
 ### 🆘 Getting Support
 
@@ -98,7 +98,7 @@ Some clients don't support `Streamable HTTP`, so you can use `mcp-remote` as a w
 
 ## 🔮 Future Enhancements
 
-The Microsoft Docs MCP Server team is working on several enhancements:
+The Microsoft Learn Docs MCP Server team is working on several enhancements:
 
 - Expanding coverage to additional Microsoft documentation sources
 - Improved query understanding for more precise results
